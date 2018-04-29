@@ -1,0 +1,6 @@
+# Dependency directories
+www/node_modules
+
+
+www/.cache
+www/public
