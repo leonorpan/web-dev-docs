@@ -3,26 +3,37 @@ title: "The simple web page possible"
 ---
 
 We are going to start by developing the simplest web page ever made.
-
 The only thing you need is an html and a css file.
 
-First, create a new directory
+> You can find the code for this example [here](https://github.com/leonorpan/web-dev-docs/tree/master/examples/simple-html-css)
+
+### Create a new directory and navigate into it
 
 ```
-$ mkdir simple-page
-$ cd simple-page
+$ mkdir simple-app-step-1
+$ cd simple-app-step-1
 ```
 
-Create the html and css
+### Create the html, css and javascript files
 
 ``` 
 $ touch index.html
 $ touch index.css
+$ touch index.js
 ```
 
-Nice! We have a directory with an html and css file! We are ready to go!
+This is how the structure of your directory should look like:
 
-In our index.html:
+```
+simple-app-step-1/
+  index.js
+  index.css
+  index.html
+```
+
+Nice! We have a directory with everything we need! We are ready to go!
+
+Here is an example of my index.html:
 
 ```html
 <!doctype html>
@@ -30,6 +41,7 @@ In our index.html:
 
 <head>
     <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">    
     <title>Hello page</title>    
     <link rel="stylesheet" type="text/css" href="index.css">
 </head>
@@ -43,84 +55,27 @@ In our index.html:
         <div class="content">
             <h1>Hello world! </h1>
             <h2>This is a very simple page for now...</h2>
+            <button type="button" onclick="mySimpleWebApp.showMessage()">Click me!</button>
         </div>
     </main>
 
     <footer>
         <div>Build with 💜 by me</div>
     </footer>
+    <script src="index.js"></script>
 </body>
 
 </html>
 ```
 
-Open index.html with your favorite browser.
-Ugly right? Let's add some css.
 
-```css
-* {
-    box-sizing: border-box;
-}
+🎉 🎉 Right click on your index.html and open it with your favorite browser 🎉 🎉
 
-body,
-html {
-    height: 100%;
-    background-color: #F3E9D2;
-}
+Feel free to play around, and in the next step, we will deploy our app to the INTERNET!
+Stay tuned!
 
-body {
-    margin: 0;
-    padding: 0;
-    font-family: sans-serif;
-}
-
-header,
-footer {
-    display: flex;
-    justify-content: center;
-    align-items: center
-}
-
-header {
-    width: 100%;
-    height: 80px;
-    background-color: #114B5F;
-    font-size: 1.5rem;
-}
-
-header .home {
-    color: #F3E9D2
-}
-
-main {
-    min-height: calc(100vh - 130px);
-    overflow: hidden;
-}
-
-main .content {
-    text-align: center;
-    padding-top: 100px;
-}
-
-footer {
-    height: 50px;
-    width: 100%;
-    background-color: #C6DABF;
-    text-align: center;
-}
-```
-
-Open index.html with your browser. Cool isn't it?
-Feel free to play with the css and styling.
 
 ## Tips:
 
-* Stuck finding colors? Here is a cool tool that can inspire you https://coolors.co/114b5f-1a936f-88d498-c6dabf-f3e9d2
+* Stuck finding colors for styling? [Here](https://coolors.co/114b5f-1a936f-88d498-c6dabf-f3e9d2) is a cool tool that can inspire you.
 
-## Question:
-
-* If I remove ``` overflow: hidden;  ``` rule from the ``` main ```, the footer moves down a few pixels. Can you explain why?
-
-( https://css-tricks.com/what-you-should-know-about-collapsing-margins/)
-
-In the next chapter, we will publish our website. Stay tuned!

@@ -6,49 +6,43 @@ Hello everyone!
 
 Welcome to the junior frontend developer survival guide.
 I decided to create this guide, when I looked back to myself and started my first job.
-I knew some html,css and javascript, but was feeling a bit lost with the architecture of a modern web application. Git,Webpack, npm, node, babel, yarn, typescript, flow, config files, task runners, tons of libraries and frameworks, web manifests, APIs, intergrations, linters, json, yaml, docker, development servers, hot module reloading what are all these? Don't be scared!
+I knew some html,css and javascript, but was feeling a bit lost with the architecture of a modern web application and all the tools professional developers use. Git, Webpack, npm, node, babel, yarn, typescript, flow, config files, task runners, tons of libraries and frameworks, web manifests, APIs, intergrations, linters, json, yaml, docker, development servers, hot module reloading what are all these? Don't be scared!
 
 And apart from that, how do I move into building a modern web application?
-All you need is html, css and javascript, why did I feel stuck?
 
-This is a guide to explain everything that I personally foind confusing a few years ago, so you don't feel confused, or at least- you wrap all those things together faster than I did.
-
-I will try to make the guide as simple as possible, assuming you know nothing than html, css and javascript. 
+I will try to make the guide as simple as possible, assuming you know nothing than html, css and a bit of javascript. 
 
 But beware! This guide will not teach you html, css and javascript. 
+I would also assume that you can use an editor of your choice (personally, I use [VSCode](https://code.visualstudio.com/download)) and you can navigate between folders using the terminal.
 
-Make sure you have already covered those. There are great resources out there that can help you with that.
+Also, I recommend reading [this short article on how a website works](https://www.codeschool.com/beginners-guide-to-web-development/how-does-a-website-work)
+and become familiar with a basic use of the browser console. [Here](https://developers.google.com/web/tools/chrome-devtools/console/) is a guide on Chrome's console, but it's up to you which browser you choose.
 
-## But, how do I know that I know those?
+## But, how do I know that I know HTML, CSS and Javascript?
 
-Well, unfortunately, you never know what you don't know! But I recommend knowing the following before you continue with this guide.
+Well, unfortunately, you never know what you don't know! But I recommend feeling comfortable with the following before you continue with this guide.
 
 ### HTML
 
-* I can make a basic html page with a header, footer and a main section.
-* I can make an html form properly.
-* I can add an image from a local folder or a url.
-* I can make an html table.
-* I know the importance of semantic html.
-* I can use w3schools as a reference.
+* I can use [w3schools](https://www.w3schools.com/html/default.asp) as a reference and I can create a basic html page.
+* I understand the importance of [HTML Semantics](https://www.w3schools.com/html/html5_semantic_elements.asp).
+* I have read and I follow the [HTML Style Guide](https://www.w3schools.com/html/html5_syntax.asp)
 
 ### CSS
 
-* I know how to import a css file into an html document.
-* I know the difference between inline and block elements.
-* I know the box model.
-* I can use media queries.
+* I can use [e3c css reference](https://www.w3schools.com/cssref/default.asp).
+* I am familiar with the box model.
+* I know the difference between ```position: absolute;``` and ```position: relative```.
+* I understand CSS specificity.
 
 ### Javascript
 
-* I know about if statements, for loops and defining variables
-* I know about scope and why it is important
-* I understand global objects (window).
-
-I would also assume that you can use an editor of your choice (personally, I use VSCode) and you can navigate between folders in the terminal. 
-
-If you are not confused with the above, amazing! Let's continue!
-If you are feeling overwhelmed, don't worry, you still need to practice a bit more!
-This is just a recommendation, it's up to you if you want to try this guide, what you need to know is that no matter what, you are super welcome!
-
+* I am comfortable with if statements, for loops and defining variables.
+* I can add event listeners and respond to them.
+* I know how scope works and why it is important not to pollute the global namespace.
+* I know the difference between javascript primitives and javascript objects.
+* I know the difference between `==` and `===`. I know the difference between false and falsy, true and truthy.
+* I understand hoisting and the difference between function declaration vs function expression.
+* I understand prototype inheritance and object composition.
+* I understand `this`.
 
