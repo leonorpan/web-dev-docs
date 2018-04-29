@@ -5,20 +5,19 @@ title: 'Introduction'
 Hello everyone!
 
 Welcome to the junior frontend developer survival guide.
-I decided to create this guide, when I looked back to myself and started my first job.
-I knew some html,css and javascript, but was feeling a bit lost with the architecture of a modern web application and all the tools professional developers use. Git, Webpack, npm, node, babel, yarn, typescript, flow, config files, task runners, tons of libraries and frameworks, web manifests, APIs, intergrations, linters, json, yaml, docker, development servers, hot module reloading what are all these? Don't be scared!
+I remeber a few years ago feeling a bit lost with the architecture of a modern web application and all the tools professional developers use.
+This motivated me to write this guide, so you don't have to.
 
-And apart from that, how do I move into building a modern web application?
+**This guide will not teach you html, css and javascript.**
 
 I will try to make the guide as simple as possible, assuming you know nothing than html, css and a bit of javascript. 
 
-But beware! This guide will not teach you html, css and javascript. 
 I would also assume that you can use an editor of your choice (personally, I use [VSCode](https://code.visualstudio.com/download)) and you can navigate between folders using the terminal.
 
 Also, I recommend reading [this short article on how a website works](https://www.codeschool.com/beginners-guide-to-web-development/how-does-a-website-work)
 and become familiar with a basic use of the browser console. [Here](https://developers.google.com/web/tools/chrome-devtools/console/) is a guide on Chrome's console, but it's up to you which browser you choose.
 
-## But, how do I know that I know HTML, CSS and Javascript?
+## How do I know that I know HTML, CSS and Javascript?
 
 Well, unfortunately, you never know what you don't know! But I recommend feeling comfortable with the following before you continue with this guide.
 

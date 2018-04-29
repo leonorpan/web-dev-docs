@@ -2,40 +2,27 @@
   "id": "table-of-contents",
   "coolness": "very-cool",
   "chapters": {
-    "intro": [
+    "introduction": [
       {
         "post": "./intro.md"        
       }
     ],
-    "one": {
-      "subchapter_one_one": [
+    "chapter_one": [
         {
-          "post": "./lesson_one.md"
+          "post": "./creating-directory.md"
         },
         {
-          "post": "./lesson_two.md"
+          "post": "./editing-html.md"
         },
         {
-          "post": "./lesson_three.md"
-        }
-      ],
-      "subchapter_one_two": [
+          "post": "./adding-css.md"
+        },
         {
-          "post": "./lesson_four.md"
+          "post": "./adding-javascript.md"
+        },
+        {
+          "post": "./deploy.md"
         }
       ]
-    },
-    "two": {
-      "subchapter_two_one": [
-        {
-          "post": "./lesson_five.md"
-        }
-      ]
-    },
-    "three": [
-      {
-        "post": "./lesson_six.md"
-      }
-    ]
-  }
+    }
 }

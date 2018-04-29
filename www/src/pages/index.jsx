@@ -29,7 +29,6 @@ class Index extends React.Component {
               Made for modern documentation sites. Table of Contents
               automatically generated from markdown files.{" "}
             </p>
-            <CtaButton to={"/lesson-one"}>See Your First Post</CtaButton>
           </BodyContainer>
         </main>
       </div>

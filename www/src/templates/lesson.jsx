@@ -121,7 +121,7 @@ export const pageQuery = graphql`
     tableOfContents: lessonsJson {
       coolness
       chapters {
-        intro {
+        introduction {
           post {
             id
             childMarkdownRemark {
@@ -134,50 +134,7 @@ export const pageQuery = graphql`
             }
           }
         }
-        one {
-          subchapter_one_one {
-            post {
-              id
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
-            }
-          }
-          subchapter_one_two {
-            post {
-              id
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
-            }
-          }
-        }
-        two {
-          subchapter_two_one {
-            post {
-              id
-              childMarkdownRemark {
-                fields {
-                  slug
-                }
-                frontmatter {
-                  title
-                }
-              }
-            }
-          }
-        }
-        three {
+        chapter_one {
           post {
             id
             childMarkdownRemark {

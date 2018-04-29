@@ -1,6 +1,8 @@
 ---
-title: "The simple web page possible"
+title: "Getting started"
 ---
+
+# The simplest possible web app
 
 We are going to start by developing the simplest web page ever made.
 The only thing you need is an html and a css file.
