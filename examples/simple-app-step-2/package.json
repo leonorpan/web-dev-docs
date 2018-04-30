@@ -1,0 +1,17 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Simple static app with client-side routing using history npm package",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "routing"
+  ],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "history": "^4.7.2"
+  }
+}

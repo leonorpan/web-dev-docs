@@ -1,0 +1,31 @@
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">    
+        <title>Hello page</title>    
+        <link rel="stylesheet" type="text/css" href="index.css">
+    </head>
+        
+    <body>
+        <header>
+            <a href="#" class="home">Home</a>
+            <a href="/about" onclick="mySimpleWebApp.navigateTo()" class="home">About</a>
+        </header>
+        
+        <main>
+            <div class="content">
+                <h1>Hello world! </h1>
+                <h2>This is a very simple page for now...</h2>
+                <button type="button" onclick="mySimpleWebApp.showMessage()">Click me!</button>
+            </div>
+        </main>
+        
+        <footer>
+            <div>Build with 💜 by me</div>
+        </footer>
+
+        <script src="node_modules/history/umd/history.js"></script>        
+        <script src="js/index.js"></script>
+    </body>
+        
+</html>

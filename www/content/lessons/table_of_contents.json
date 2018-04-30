@@ -4,24 +4,32 @@
   "chapters": {
     "introduction": [
       {
-        "post": "./intro.md"        
+        "post": "./intro/intro.md"        
       }
     ],
     "chapter_one": [
         {
-          "post": "./creating-directory.md"
+          "post": "./chapter-one/creating-directory.md"
         },
         {
-          "post": "./editing-html.md"
+          "post": "./chapter-one/editing-html.md"
         },
         {
-          "post": "./adding-css.md"
+          "post": "./chapter-one/adding-css.md"
         },
         {
-          "post": "./adding-javascript.md"
+          "post": "./chapter-one/adding-javascript.md"
         },
         {
-          "post": "./deploy.md"
+          "post": "./chapter-one/deploy.md"
+        }
+      ],
+      "chapter_two": [
+        {
+          "post": "./chapter-two/add-pages.md"
+        },
+        {
+          "post": "./chapter-two/development-server.md"
         }
       ]
     }
