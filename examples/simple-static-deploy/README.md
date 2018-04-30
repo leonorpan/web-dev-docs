@@ -34,7 +34,7 @@ app/
 
 Feel free to experiment with the file structure, but make sure you have an ```index.html``` on your project root - this will be the default entry point of your web page. 
 
-If you don't know where to start, I have made a skeleton for you, you can find it [here](https://github.com/leonorpan/web-dev-docs/tree/master/examples/simple-static/deploy/app) - feel free to download the code and play!
+If you don't know where to start, I have made a skeleton for you, you can find it [here](https://github.com/leonorpan/web-dev-docs/tree/master/examples/simple-static-deploy/app) - feel free to download the code and play!
 
 ## Download and install NOW
 
