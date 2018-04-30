@@ -46,11 +46,14 @@ In your project's root directory (in my case ```simple-app-step-1```) run
 
 🎉 🎉  
 
-Your website is deployed and you got a URL!
+Your website is deployed and you got a URL like that:
+
+[https://simple-app-step-1-zpmmcnugsv.now.sh/](https://simple-app-step-1-zpmmcnugsv.now.sh/) ( [code](https://github.com/leonorpan/web-dev-docs/tree/master/examples/simple-app-step-1) )
+
 Now you can share your coolness!
 
 🎉 🎉 
 
 ## What's next
 
-TODO: LOOKING FOR IDEAS!
+I will teach you how to deploy your app with just a button,
