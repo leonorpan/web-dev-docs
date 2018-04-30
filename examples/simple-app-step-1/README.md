@@ -1,4 +1,5 @@
 # Static web page deploy & hosting 
+___
 
 Hi! In this guide, I am going to show you the easiest way to deploy your simple html, css and (optionally) javascript website in minutes! In this tutorial, we will use [NOW](https://zeit.co/now), which is a new personal favourite, and most important, you don't need to setup a git repo in order to deploy! The are pros and cons, but we will discuss those later. What matters for now, is make your page available to the internet! 
 
@@ -52,4 +53,4 @@ Now you can share your coolness!
 
 ## What's next
 
-TODO:
+TODO: LOOKING FOR IDEAS!
